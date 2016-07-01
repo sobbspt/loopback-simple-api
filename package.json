@@ -1,9 +1,9 @@
 {
   "name": "loopback-api",
   "version": "1.0.0",
-  "main": "server/server.js",
+  "main": "app/server/server.js",
   "scripts": {
-    "start": "node .",
+    "start": "nodemon .",
     "pretest": "eslint .",
     "posttest": "nsp check"
   },
@@ -15,6 +15,7 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.4.0",
     "loopback-connector-mysql": "^2.3.0",
+    "nodemon": "^1.9.2",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^1.0.1"
   },
