@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mysql": {
-    "host": "localhost",
+    "name": "mysql",
+    "host": "0.0.0.0",
     "port": 3306,
     "url": "",
-    "database": "loopback_api",
-    "password": "root",
-    "name": "mysql",
-    "user": "root",
+    "database": "app",
+    "password": "app",
+    "user": "app",
     "connector": "mysql"
   }
 }
