@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  server:
+    container_name: loopback-api-server
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/src/ap
