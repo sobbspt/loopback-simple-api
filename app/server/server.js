@@ -21,6 +21,9 @@ app.start = function() {
 boot(app, __dirname, function(err) {
   if (err) throw err;
 
+  var dataSource = app.dataSources.mysql;
+  dataSource.automigrate();
+
   // start the server if `$ node server.js`
   if (require.main === module)
     app.start();
